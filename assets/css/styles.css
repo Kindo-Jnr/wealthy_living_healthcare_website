@@ -628,6 +628,68 @@ h1 {
   }
 }
 
+/* testimonials Section-------- */
+.testimonials-section {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.testimonials-section h2{
+  font-size: 2rem;
+  color: #764a00;
+  font-weight: bold;
+ 
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #626262;
+}
+
+.testimonial-item {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+ 
+  margin-bottom: 30px;
+}
+
+.stars {
+  color: #4D4D4D;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  color: #4D4D4D;
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.testimonial-footer {
+  display: flex;
+  align-items: center;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.testimonial-footer h5 {
+  margin: 0;
+  font-size: 1rem;
+  color: #050505;
+}
+
+.testimonial-footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: gray;
+}
 
 
 
