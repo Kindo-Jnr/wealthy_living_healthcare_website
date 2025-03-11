@@ -585,10 +585,10 @@ h1 {
 
 .speciality-text h3 {
  font-weight: bold;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .speciality-text p{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 .speciality-right{
   height: 100vh;
@@ -714,7 +714,7 @@ h1 {
 }
 
 .mission-box p{
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #603C00;
 }
 .vision-box p{
@@ -800,7 +800,7 @@ h1 {
 /* Address */
 .address {
   display: flex;
-  align-items: center;
+  align-items: left;
   gap: 10px;
 }
 
@@ -823,12 +823,13 @@ h1 {
 /* Responsive */
 @media (max-width: 768px) {
   .footer-logo {
-      text-align: center;
-      display: block;
-      margin: 0 auto 20px;
+      text-align: left;
+     
   }
-  
-  .contact-info, .address {
+  .footer-about{
+    width: 80%;
+  }
+  .contact-info {
       text-align: center;
       justify-content: center;
   }
