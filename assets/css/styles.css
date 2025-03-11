@@ -759,6 +759,85 @@ h1 {
   color: #292929;
 }
 
+/* Footer Section-- */
+.footer-section {
+  background: #764a00;
+  color: #ffffff;
+  padding: 50px 0;
+  text-align: left;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* About Content */
+.footer-about {
+  width: 50%;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Contact Info */
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.contact-item i {
+  color: #fff;
+}
+
+/* Address */
+.address {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.address i {
+  color: #fff;
+}
+
+/* Social Icons */
+.social-icons a {
+  color: white;
+  font-size: 18px;
+  margin-right: 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff7f00;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-logo {
+      text-align: center;
+      display: block;
+      margin: 0 auto 20px;
+  }
+  
+  .contact-info, .address {
+      text-align: center;
+      justify-content: center;
+  }
+
+  .social-icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+}
 
 
 
