@@ -356,7 +356,6 @@ h1 {
 .section-title h2 {
   font-size: 1.1rem;
   font-weight: bold;
-  color: #010101;
 }
 .about {
   font-weight: bold;
@@ -419,30 +418,29 @@ h1 {
 }
 
 .section-header h2 {
-  font-size: 1.1rem;
-  font-weight: bold;
+  font-size: 1rem;
   color: #010101;
+  font-weight: bold;
 }
 
 /* Centered Titles */
 .section-header h1 {
   font-size: 2rem;
-  font-weight: bold;
   color: #764a00;
+  font-weight: bold;
 }
 
 .section-header h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #626262;
-  
 }
 
-/* Service Item - Fixing Overflow Issue */
+/* Service Item - Overflow */
 .service-item {
   position: relative;
   border-radius: 10px;
-  overflow: visible; /* Ensure the card is not cut off */
-  padding-bottom: 100px; /* Add space below to fit the card */
+  overflow: visible;
+  padding-bottom: 100px;
 }
 
 /* Image Styling */
@@ -468,7 +466,7 @@ h1 {
 }
 
 .service-card h3 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #050505;
   font-weight: bold;
   margin-bottom: 5px;
@@ -484,22 +482,21 @@ h1 {
   display: inline-block;
   font-size: 1rem;
   font-weight: bold;
-  background-color: #764a00;
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
- padding: 10px 15px;
-
+  background-color: #764a00;
+  padding: 10px 15px;
 }
 
 .text-center .learn-more:hover {
-  background-color: #fff;
   color: #764a00;
+  background-color: #fff;
   border: 1px solid #764a00;
 }
 
 /* Mobile View */
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .section-header {
     flex-direction: column;
     text-align: center;
@@ -524,5 +521,127 @@ h1 {
 
   .service-item {
     padding-bottom: 120px; /* More space on mobile */
+  }
+}
+
+/* Speciality Setion---------- */
+.speciality-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speciality-left {
+  position: relative;
+  padding: 50px;
+  background: url('/assets/images/special-background.png') no-repeat center center/cover;
+  color: white;
+  height: 75%;
+}
+
+/* Overlay */
+.speciality-left .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #764a00, #050505);
+  opacity: 0.8;
+  z-index: 1;
+}
+.content {
+  position: relative;
+  z-index: 2;
+}
+
+.speciality-items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.speciality-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 40px;
+  background: #e3e3e3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.icon-circle i {
+  font-size: 1.3rem;
+  color: #153700;
+}
+
+.speciality-text h3 {
+ font-weight: bold;
+  font-size: 0.9rem;
+}
+.speciality-text p{
+  font-size: 0.7rem;
+}
+.speciality-right{
+  height: 100vh;
+  margin-left: -13px;
+}
+.speciality-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Mobile View */
+@media (max-width: 968px) {
+  .speciality-left {
+      padding: 30px;
+      text-align: center;
+  }
+
+  .speciality-item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .icon-circle {
+    width: 50px;
+    height: 50px;
+      margin-bottom: 10px;
+  }
+  .speciality-right{
+    height: 70vh;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+  .speciality-right img {
+      margin-top: 30px;
+  }
+}
+
+
+
+
+
+
+/* Animations--------------------- */
+/* Navbar Animation Effect---- */
+@keyframes slideAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
