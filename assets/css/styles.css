@@ -308,6 +308,7 @@ h1 {
 @media (max-width: 968px) {
   .home-section {
     text-align: left;
+    margin-top: 20px;
   }
 
   .container {
@@ -326,6 +327,67 @@ h1 {
   .book-btn {
    
     font-weight: normal;
+  }
+}
+
+/* Knows Us Section */
+.knows-us-section {
+  background: #f9f9f9;
+}
+
+/* Section Title */
+.section-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.section-title .line {
+  width: 50px;
+  height: 2px;
+  background: #764a00;
+  margin-right: 5px;
+}
+
+.section-title i {
+  color: #764a00;
+  font-size: 0.8rem;
+  margin-right: 10px;
+}
+
+.section-title h2 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.about{
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Image Styling */
+.know-us {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Mobile View */
+@media (max-width: 968px) {
+  .section-title {
+      justify-content: left;
+  }
+
+  .section-title h2 {
+      font-size: 1rem;
+
+  }
+
+  .row {
+      flex-direction: column;
+      text-align: left;
+  }
+
+  .info-box {
+      font-size: 1rem;
   }
 }
 
