@@ -630,7 +630,7 @@ h1 {
 
 /* testimonials Section-------- */
 .testimonials-section {
-  padding: 60px 0;
+  
   background-color: white;
 }
 
@@ -690,6 +690,75 @@ h1 {
   font-size: 0.9rem;
   color: gray;
 }
+
+/* Mision and Vision Section */
+.mission-vision-section {
+ 
+  background-color: #f8f9fa;
+}
+
+/* Mission & Vision Boxes */
+.mission-box, .vision-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.mission-box h3, .vision-box h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #603C00;
+}
+
+.mission-box p{
+  font-size: 0.8rem;
+  color: #603C00;
+}
+.vision-box p{
+  font-size: 0.8rem;
+  color: #603C00;
+}
+
+/* Intro Text */
+.intro-text {
+  color: #626262;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Images */
+.mission-img, .history-img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Positioning images */
+.history-img {
+  position: relative;
+  top: -20px;
+}
+
+.mission-img {
+  position: relative;
+  bottom: -20px;
+}
+
+/* Story & History Titles */
+.story-title, .history-title {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  color: #603C00;
+  font-weight: bold;
+}
+.story p{
+  font-size: 1.1rem;
+  color: #292929;
+}
+
 
 
 
