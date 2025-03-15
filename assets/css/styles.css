@@ -1157,6 +1157,9 @@ h1 {
   .career-home{
     margin-top: 18px;
   }
+  .contact-home{
+    margin-top: 18px !important;
+  }
   .lead{
     font-size: 1rem;
   }
@@ -1172,6 +1175,55 @@ h1 {
     width: 100%;
   }
 }
+
+
+/* Contact Us Page------- */
+.contact-home{
+  position: relative;
+  background: url('/assets/images/partner2.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 38px;
+}
+.contact-intro {
+  background-color: #f8f9fa;
+}
+
+/* .contact-item .icon {
+  color: #007bff;
+} */
+
+.contact-item p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}
+.contact-us-section {
+  padding: 60px 0;
+}
+.contact-form {
+  position: relative;
+  padding-bottom: 60px; /* extra space for the send message link */
+}
+.contact-form h1{
+color: #767676;
+}
+.send-message-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 20px;
+}
+/* Optional: style adjustments for inputs */
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+}
+
+
+
 
 /* Animations--------------------- */
 /* Navbar Animation Effect---- */
