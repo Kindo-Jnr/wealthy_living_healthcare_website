@@ -1229,12 +1229,15 @@ color: #767676;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 900px;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  width:100%;
 }
 .login-image {
   background: url('/assets/images/login.png') no-repeat center center;
   background-size: cover;
+  width: 50%;
+  height: 100vh; /* Full height */
 }
 .login-form {
   padding: 40px;
@@ -1277,7 +1280,11 @@ color: #767676;
   width: 20px;
   margin-right: 10px;
 }
-
+@media (max-width: 968px){
+  .remember-me label{
+    font-size: 0.8rem;
+  }
+}
 
 /* Animations--------------------- */
 /* Navbar Animation Effect---- */
