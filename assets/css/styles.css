@@ -1034,6 +1034,54 @@ h1 {
 }
 }
 
+/* Read more Blogs Page------ */
+.read-blogs{
+  position: relative;
+  background: url('/assets/images/physio.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: -70px !important;
+}
+
+/* Blog Stories Section */
+.blog-stories {
+  background-color: #f8f9fa;
+}
+
+/* Story Box */
+.story-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.story-item:hover {
+  transform: translateY(-5px);
+}
+
+/* Back Button */
+.back-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #764a00;
+  text-decoration: none;
+}
+
+.back-link i {
+  margin-right: 8px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+
+
 
 
 
