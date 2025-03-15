@@ -1223,6 +1223,60 @@ color: #767676;
 }
 
 
+/* lOGIN PAGE------------ */
+.login-container {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  width: 100%;
+}
+.login-image {
+  background: url('/assets/images/login.png') no-repeat center center;
+  background-size: cover;
+}
+.login-form {
+  padding: 40px;
+}
+.login-form h2 {
+  font-weight: 600;
+}
+.form-control {
+  border-radius: 5px;
+}
+.remember-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.or-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.or-divider::before, .or-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 10px;
+}
+.google-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.google-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
 
 
 /* Animations--------------------- */
