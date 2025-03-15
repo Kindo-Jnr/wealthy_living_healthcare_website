@@ -1021,7 +1021,7 @@ h1 {
   text-decoration: underline;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .blogs-home{
     margin-top: 15px;
   }
@@ -1080,10 +1080,98 @@ h1 {
   text-decoration: underline;
 }
 
+/* Career Page--------- */
+.career-home{
+  position: relative;
+  background: url('/assets/images/about2.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 38px;
+}
+/* Career Intro Section */
+.career-intro {
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* Hiring Positions */
+.hiring-positions {
+  text-align: left;
+  max-width: 600px;
+ 
+}
+
+/* Colored Bullets */
+.hiring-positions .bullet {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #764a00;
+  margin-right: 10px;
+}
+
+.required-info {
+  color: red;
+  font-weight: bold;
+}
+.section-heading {
+  background-color: #7c7c7c;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.notice{
+  width: 70%;
+}
+.notice-title {
+  background-color: #ebebeb;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  width: 50%;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.underline-heading {
+  text-decoration: underline;
+}
+.btn-submit{
+  background-color: #764a00;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 8px; 
+  transition: 0.3s ease;
+}
+.btn-submit:hover{
+  background-color: #fff;
+  color: #764a00;
+  border: 1px solid #764a00;
+}
 
 
-
-
+@media (max-width: 968px) {
+  .career-home{
+    margin-top: 18px;
+  }
+  .lead{
+    font-size: 1rem;
+  }
+  .section-heading{
+    font-size: 1.3rem;
+  }
+  .notice{
+    width: 100%;
+    color: red;
+    font-size: 0.9rem;
+  }
+  .notice-title{
+    width: 100%;
+  }
+}
 
 /* Animations--------------------- */
 /* Navbar Animation Effect---- */
