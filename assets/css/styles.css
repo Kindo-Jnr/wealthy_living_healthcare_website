@@ -1237,7 +1237,7 @@ color: #767676;
   background: url('/assets/images/login.png') no-repeat center center;
   background-size: cover;
   width: 50%;
-  height: 100vh; /* Full height */
+  height: 100vh; 
 }
 .login-form {
   padding: 40px;
@@ -1285,6 +1285,28 @@ color: #767676;
     font-size: 0.8rem;
   }
 }
+/* Account Page--------- */
+.acct-image{
+  background: url('/assets/images/acct.png') no-repeat center center;
+  background-size: cover;
+  width: 50%;
+  height: 100vh; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Animations--------------------- */
 /* Navbar Animation Effect---- */
