@@ -137,7 +137,7 @@
       <form>
         <div class="row g-3 mt-3">
           <!-- First Name & Last Name -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">First Name *</label>
             <input
               type="text"
@@ -157,7 +157,7 @@
           </div>
 
           <!-- Social Security & Date of Birth -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Social Security Number *</label>
             <input
               type="text"
@@ -172,7 +172,7 @@
           </div>
 
           <!-- Email & Alternate Number -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Email Address *</label>
             <input
               type="email"
@@ -191,7 +191,7 @@
           </div>
 
           <!-- City, State, Zip Code -->
-          <div class="col-md-4">
+          <div class="col-md-4 mb-3">
             <label class="form-label">City *</label>
             <input
               type="text"
@@ -221,7 +221,7 @@
           </div>
 
           <!-- Mailing Address & Home Phone -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Mailing Address *</label>
             <input
               type="text"
@@ -240,7 +240,7 @@
           </div>
 
           <!-- Phone & Emergency Contact -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Phone Number *</label>
             <div class="input-group">
               <select class="form-select" style="max-width: 80px">
@@ -256,7 +256,7 @@
               />
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Emergency Contact *</label>
             <div class="input-group">
               <select class="form-select" style="max-width: 80px">
@@ -274,7 +274,7 @@
           </div>
 
           <!-- Emergency Address -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Emergency Address *</label>
             <input
               type="text"
@@ -285,34 +285,34 @@
           </div>
 
           <!-- Age Confirmation -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Are you 18 or older? *</label>
             <div>
               <input type="radio" name="age" required /> Yes
-              <input type="radio" name="age" /> No
+              <input type="radio" name="age" class="ms-3" /> No
             </div>
           </div>
 
           <!-- Gender -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Gender *</label>
             <div>
               <input type="radio" name="gender" required /> Male
-              <input type="radio" name="gender" /> Female
+              <input type="radio" name="gender" class="ms-3" /> Female
             </div>
           </div>
 
           <!-- Citizenship -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Are you a U.S. citizen? *</label>
             <div>
               <input type="radio" name="citizen" required /> Yes
-              <input type="radio" name="citizen" /> No
+              <input type="radio" name="citizen" class="ms-3" /> No
             </div>
           </div>
 
           <!-- Position & Wage -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Position Applying For *</label>
             <input
               type="text"
@@ -321,7 +321,7 @@
               required
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Desired Wage *</label>
             <input
               type="text"
@@ -330,6 +330,27 @@
               required
             />
           </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">How did you hear about us?</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Please tell us..."
+              required
+            />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">On what date are you available to work?</label>
+            <input type="date" class="form-control" required />
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">Have you ever been convicted?</label>
+            <div>
+              <input type="radio" name="citizen" required /> Yes
+              <input type="radio" name="citizen" class="ms-3" /> No
+            </div>
+          </div>
+
 
           <!-- Additional Notes -->
           <div class="col-md-12">
@@ -356,8 +377,8 @@
       <form>
         <div class="row g-3 mt-3">
           <!-- School & Number of Years -->
-          <div class="col-md-6">
-            <label class="form-label">School Name *</label>
+          <div class="col-md-6 mb-3">
+            <label class="form-label fw-bold">High School *</label>
             <input
               type="text"
               class="form-control"
@@ -365,7 +386,7 @@
               required
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Number of Years *</label>
             <input
               type="number"
@@ -376,7 +397,7 @@
           </div>
 
           <!-- Location & Phone -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">School Location *</label>
             <input
               type="text"
@@ -385,7 +406,7 @@
               required
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">School Phone Number</label>
             <input
               type="text"
@@ -395,23 +416,80 @@
           </div>
 
           <!-- Graduate Status -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label class="form-label">Did you graduate? *</label>
             <div>
               <input type="radio" name="graduate" required /> Yes
-              <input type="radio" name="graduate" /> No
+              <input type="radio" name="graduate" class="ms-3" /> No
             </div>
           </div>
 
           <!-- Department -->
-          <div class="col-md-6">
-            <label class="form-label">Department</label>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">Subject</label>
             <input
               type="text"
               class="form-control"
-              placeholder="Enter department"
+              placeholder="Enter Subject Here"
             />
           </div>
+            <!-- School & Number of Years -->
+            <div class="col-md-6 mb-3">
+              <label class="form-label fw-bold">College *</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter school name"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Number of Years *</label>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Enter years attended"
+                required
+              />
+            </div>
+  
+            <!-- Location & Phone -->
+            <div class="col-md-6 mb-3">
+              <label class="form-label">School Location *</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter school location"
+                required
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label class="form-label">School Phone Number</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter phone number"
+              />
+            </div>
+  
+            <!-- Graduate Status -->
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Did you graduate? *</label>
+              <div>
+                <input type="radio" name="graduate" required /> Yes
+                <input type="radio" name="graduate" class="ms-3" /> No
+              </div>
+            </div>
+  
+            <!-- Department -->
+            <div class="col-md-6 mb-3">
+              <label class="form-label">Department</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Department Here"
+              />
+            </div>
 
           <!-- Trade or Business Experience -->
           <div class="col-md-12">
@@ -448,8 +526,8 @@
       <form>
         <div class="row g-3 mb-3">
           <!-- Organization Input -->
-          <div class="col-md-6">
-            <label for="organization" class="form-label">Organization</label>
+          <div class="col-md-6 mb-3">
+            <label for="organization" class="form-label fw-bold">1. Organization</label>
             <input
               type="text"
               class="form-control"
@@ -458,7 +536,7 @@
             />
           </div>
           <!-- Phone Input -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label for="phone" class="form-label">Phone</label>
             <input
               type="tel"
@@ -482,11 +560,53 @@
             </select>
           </div>
           <!-- Date Issued Input -->
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <label for="dateIssued" class="form-label">Date Issued</label>
             <input type="date" class="form-control" id="dateIssued" />
           </div>
         </div>
+        <div class="row g-3 mb-3">
+          <!-- Organization Input -->
+          <div class="col-md-6 mb-3">
+            <label for="organization" class="form-label fw-bold">2. Organization</label>
+            <input
+              type="text"
+              class="form-control"
+              id="organization"
+              placeholder="Enter organization name"
+            />
+          </div>
+          <!-- Phone Input -->
+          <div class="col-md-6 mb-3">
+            <label for="phone" class="form-label">Phone</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              placeholder="Enter phone number"
+            />
+          </div>
+        </div>
+
+        <div class="row g-3 mb-3">
+          <!-- Country Dropdown -->
+          <div class="col-md-6">
+            <label for="country" class="form-label">Country</label>
+            <select class="form-select" id="country">
+              <option selected disabled>Select Country</option>
+              <option>USA</option>
+              <option>Canada</option>
+              <option>UK</option>
+              <option>Australia</option>
+            </select>
+          </div>
+          <!-- Date Issued Input -->
+          <div class="col-md-6 mb-3">
+            <label for="dateIssued" class="form-label">Date Issued</label>
+            <input type="date" class="form-control" id="dateIssued" />
+          </div>
+        </div>
+        
       </form>
     </div>
 
