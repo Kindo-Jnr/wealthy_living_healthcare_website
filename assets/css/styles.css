@@ -1284,6 +1284,9 @@ color: #767676;
   .remember-me label{
     font-size: 0.8rem;
   }
+  .welcome-text{
+    font-size: 1.4rem !important;
+  }
 }
 /* Account Page--------- */
 .acct-image{
@@ -1293,7 +1296,39 @@ color: #767676;
   height: 100vh; 
 }
 
+/* Booking Page----------- */
+/* Center content */
+.booking-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+/* Left Image */
+.booking-image {
+  width: 50%;
+  height: 100vh;
+  background: url('/assets/images/booking.png') no-repeat center center;
+  background-size: cover;
+}
+
+/* Form Styling */
+.booking-form {
+padding: 40px;
+  
+}
+
+.welcome-text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #764a00;
+}
+
+/* Modal Styling */
+.modal-content {
+  text-align: center;
+}
 
 
 
