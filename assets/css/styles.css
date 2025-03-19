@@ -244,7 +244,7 @@ header .navlist a:hover::after {
   height: 100vh;
   background: url("/assets/images/home.avif") no-repeat center center/cover;
   color: white;
-  margin-top: 38px;
+  margin-top: 40px;
 }
 
 /* Overlay */
@@ -308,7 +308,7 @@ h1 {
 @media (max-width: 968px) {
   .home-section {
     text-align: left;
-    margin-top: 15px;
+    margin-top: 30px;
   }
 
   .container {
@@ -871,9 +871,9 @@ h1 {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .service-home{
-    margin-top: 15px;
+    margin-top: 34px;
   }
   .service-title {
       font-size: 2rem;
@@ -1023,7 +1023,7 @@ h1 {
 
 @media (max-width: 968px) {
   .blogs-home{
-    margin-top: 15px;
+    margin-top: 30px;
   }
 .blogs-heading{
   font-size: 1.4rem;
@@ -1155,10 +1155,10 @@ h1 {
 
 @media (max-width: 968px) {
   .career-home{
-    margin-top: 18px;
+    margin-top: 31px;
   }
   .contact-home{
-    margin-top: 18px !important;
+    margin-top: 31px !important;
   }
   .lead{
     font-size: 1rem;
