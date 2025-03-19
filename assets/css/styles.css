@@ -873,7 +873,7 @@ h1 {
 /* Responsive */
 @media (max-width: 968px) {
   .service-home{
-    margin-top: 34px;
+    margin-top: 31px;
   }
   .service-title {
       font-size: 2rem;
