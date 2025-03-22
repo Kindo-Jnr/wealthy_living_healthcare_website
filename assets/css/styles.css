@@ -1586,7 +1586,7 @@ font-size: 24px;
 }
 .dashboard-header{
   background-color: #fff;
-  gap: 170px;
+  gap: 190px;
 
 }
 .content{
@@ -1600,7 +1600,7 @@ font-size: 24px;
   gap: 25px;
 }
 .dashboard-card{
-  width: 210px;
+  width: 197px;
 height: 100px;
 border-radius: 8px;
 border: 1px solid rgba(4, 188, 1, 0.25);
@@ -1622,7 +1622,7 @@ transition: transform 0.3s, box-shadow 0.3s;
 .card-texts{
   color: #000;
 font-family: Inter;
-font-size: 20px;
+font-size: 1.1rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
@@ -1833,6 +1833,17 @@ letter-spacing: 0.8px;
 .appointment-card img {
   height: 20px;
   width: 20px;
+}
+
+.appointment-date img{
+  width: 17px;
+}
+
+.appointment-date span{
+  font-size: 0.8rem;
+}
+.appointment-details{
+  font-size: 0.9rem;
 }
 
 .appointment-card .rounded-circle {
