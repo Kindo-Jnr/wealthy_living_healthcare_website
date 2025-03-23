@@ -1479,7 +1479,8 @@ transition: 0.5s;
 }
 
 .burger-menu-content .nav-link.active{
-  color: #764a00 !important;
+  color: #000 !important;
+  font-weight: bold;
 }
 .close-btn {
   background: none;
@@ -2195,13 +2196,15 @@ transition: 0.5s;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+.settings-container h1{
+  color: #764a00;
+}
 .settings-section {
   margin-bottom: 20px;
 }
 
 .settings-section h2 {
-  border-bottom: 1px solid #6ae13d;
+  border-bottom: 1px solid #764a00;
   padding-bottom: 10px;
 }
 
@@ -2237,7 +2240,7 @@ form input[type="password"] {
 
 form button {
   padding: 10px 20px;
-  background: #6ae13d;
+  background: #764a00;
   color: #fff;
   border: none;
   border-radius: 4px;
@@ -2247,14 +2250,14 @@ form button {
 }
 
 form button:hover {
-  background: #8bf166;
-  color: #000;
+  background: #fff;
+  color: #764a00;
 }
 
 .exit-button{
   padding: 10px 20px;
-  background: #6ae13d;
-  color: #000;
+  background: #764a00;
+  color: #fff;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -2262,11 +2265,11 @@ form button:hover {
   width: 50%;
 }
 .exit-button:hover{
-  background: #8bf166;
-  color: #fff;
+  background: #fff;
+  color: #764a00;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 967px) {
 
   .settings-section h2{
     font-size: 20px;
@@ -2289,7 +2292,7 @@ form input[type="password"] {
 }
 form button {
   padding: 5px 10px;
-  background: #6ae13d;
+  background: #764a00;
   color: #fff;
   border: none;
   border-radius: 4px;
