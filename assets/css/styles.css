@@ -551,7 +551,7 @@ h1 {
   opacity: 0.8;
   z-index: 1;
 }
-.content {
+.contents {
   position: relative;
   z-index: 2;
 }
