@@ -1427,7 +1427,7 @@ color: #000;
 font-size: 24px;
 }
 .sidebar-bottom .nav-link.active {
-    color: #6ae13d !important; 
+    color: #764a00 !important; 
 }
 .content {
   padding: 20px;
@@ -1438,8 +1438,9 @@ font-size: 24px;
   font-size: 30px;
   cursor: pointer;
   position: fixed;
-  top: 10px;
+  top: 40px;
    z-index: 1001;
+   color: #764a00;
 }
 
 .burger-menu-content {
@@ -1467,7 +1468,7 @@ font-size: 24px;
   margin-bottom: 20px;
 }
 .burger-menu-content .nav-link{
-  color: #000;
+  color: #764a00;
   font-family: Inter;
 font-size: 16px;
 font-style: normal;
@@ -1478,7 +1479,7 @@ transition: 0.5s;
 }
 
 .burger-menu-content .nav-link.active{
-  color: #04BC01 !important;
+  color: #764a00 !important;
 }
 .close-btn {
   background: none;
@@ -1506,18 +1507,18 @@ transition: 0.5s;
   #header-input{
     display: none;
   }
-  .dashboard-header{
+  .dashboard-header {
     gap: 0;
     position: fixed;
     z-index: 999; /* High z-index for the dashboard header, but less than burger menu */
     width: 100%; /* Ensure it takes the full width */
     top: 0;
     left: 0;
-    box-shadow: 0px 6px 12px 0px rgba(51, 108, 251, 0.16);
+   
   }
   .content{
     
-    margin-top: 60px;
+    margin-top: 50px;
     
   }
    
@@ -1535,7 +1536,7 @@ transition: 0.5s;
 
 /* Logout Modal------------------------ */
 .log-out-btn{
-  color: #D2D2D2;
+  color: #764a00;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -1557,15 +1558,15 @@ font-size: 24px;
   align-items: center;
   gap: 10px;
   border-radius: 6px;
-  background: #04BC01;
+  background: #764a00;
   box-shadow: 0px 6px 12px 0px rgba(51, 108, 251, 0.16);
   border: none;
   color: #fff;
   transition: 0.5s; 
 }
 .log-btn:hover{
-  color: #000;
-  background: #80eb83;
+  color: #764a00;
+  background: #fff;
   
 }
 .icons a {
@@ -1592,6 +1593,9 @@ font-size: 24px;
 .content{
   background: #F1F1F0;
   
+}
+.dashboard-title h1{
+  color: #764a00 !important;
 }
 .form-control{
   width: 200px;
@@ -1620,7 +1624,7 @@ transition: transform 0.3s, box-shadow 0.3s;
   flex-shrink: 0;
 }
 .card-texts{
-  color: #000;
+  color: #764a00 !important;
 font-family: Inter;
 font-size: 1.1rem;
 font-style: normal;
@@ -1654,7 +1658,7 @@ line-height: normal;
 letter-spacing: 0.8px;
 }
 .graph-body span{
-  color: #04BC01;
+  color: #764a00;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
@@ -1685,7 +1689,7 @@ letter-spacing: 0.8px;
 }
 
 .graph-details {
-  color: #000;
+  color: #764a00;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
@@ -1732,7 +1736,7 @@ letter-spacing: 0.8px;
 }
 
 /* Right Side header section */
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .dashboard-header {
     flex-direction: row;
     justify-content: space-between;
@@ -1758,10 +1762,22 @@ letter-spacing: 0.8px;
     max-width: 30px; /* Adjust icon size as needed */
     vertical-align: middle; /* Align icons vertically */
   }
+  .dashboard-card{
+    width: 100%;
+  }
+  .dashboard-card img{
+    margin-left: 33%;
+  }
+  .card-texts{
+    width: 106px;
+  }
 }
 
 /* Circular Graph Section */
 @media (max-width: 768px) {
+  .graph-card{
+    width: 100%;
+  }
   .overlapping-images {
     justify-content: center;
     margin-top: 0;
@@ -1770,6 +1786,7 @@ letter-spacing: 0.8px;
   .circular-graph-container {
     width: 100px;
     height: 100px;
+    display: none;
   }
 
   .graph-head {
@@ -1870,6 +1887,7 @@ letter-spacing: 0.8px;
 }
 .graph-title span{
   color: #04BC01;
+ 
 }
 .graph {
   height: 300px;
@@ -2126,8 +2144,10 @@ letter-spacing: 0.56px;
 .img-button{
   margin-left: 30%;
  gap: 20px;
+ width: 100%;
 }
 .blog-btn{
+  
   margin-left: 15px;
   display: flex;
 padding: 10px 35px;
