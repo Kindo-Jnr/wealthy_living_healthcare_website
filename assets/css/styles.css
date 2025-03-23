@@ -1771,6 +1771,12 @@ letter-spacing: 0.8px;
   .card-texts{
     width: 106px;
   }
+  .clock img{
+    width: 30px;
+  }
+  .clock span{
+    font-size: 0.8rem;
+  }
 }
 
 /* Circular Graph Section */
@@ -1886,7 +1892,7 @@ letter-spacing: 0.8px;
   align-items: center;
 }
 .graph-title span{
-  color: #04BC01;
+  color: #764a00;
  
 }
 .graph {
@@ -1905,7 +1911,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .patients-card{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
-  border: 1px solid #04BC01; 
+  border: 1px solid #764a00; 
 }
 .card-body h4{
   color: #000;
@@ -1926,7 +1932,7 @@ padding: 8px 13px;
 align-items: flex-start;
 gap: 8px;
 border-radius: 8px;
-background: #04BC01;
+background: #764a00;
 color: #FFF;
 font-family: Inter;
 font-size: 14px;
@@ -1939,7 +1945,7 @@ text-decoration: none;
 }
 .recent-post a:hover{
   color: #000;
-  background: #89f18c;
+  background: #764a00;
   
 }
 .patient-name{
@@ -1977,7 +1983,7 @@ line-height: normal;
 /* Appointment Schcedule Card Section---------------- */
 .appointment-schedule-card{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
-  border: 1px solid #04BC01;
+  border: 1px solid #764a00;
 }
 .vertical-line {
   border-left: 3px solid #B3B3B3;
@@ -2017,7 +2023,7 @@ letter-spacing: 0.48px;
 /* Appointment Request Card------------------- */
 .appointment-request-card{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
-  border: 1px solid #04BC01;
+  border: 1px solid #764a00;
 }
 .custom-card {
   background-color: #f8f9fa; /* Light gray background color */
@@ -2032,7 +2038,7 @@ letter-spacing: 0.48px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
 }
 .num{
-  color: #04BC01;
+  color: #764a00;
 font-family: Poppins;
 font-size: 17px;
 font-style: normal;
@@ -2095,7 +2101,7 @@ letter-spacing: 0.56px;
 }
 .love-section {
   font-size: 1rem;
-  color: #04bc01; /* Red color for love icon */
+  color: #764a00; /* Red color for love icon */
 }
 .garlic-img {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -2109,7 +2115,7 @@ letter-spacing: 0.56px;
 /* Write a blog section---------------------- */
 .write-blog-section{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
-  border: 1px solid #04BC01;
+  border: 1px solid #764a00;
 }
 .write-blog-section label {
   display: block;
@@ -2155,7 +2161,7 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 25px;
-background: #04BC01;
+background: #764a00;
 border: none;
 color: #FFF;
 font-family: Inter;
@@ -2167,8 +2173,8 @@ letter-spacing: 0.8px;
 transition: 0.5s;
 }
 .blog-btn:hover{
-  color: #000;
-  background: #89f18c;
+  color: #764a00;
+  background: #fff;
 }
 /* Resonsiveness for Blog Dashboard---------------  */
 @media (max-width: 767.98px) {
