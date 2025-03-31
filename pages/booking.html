@@ -7,7 +7,7 @@
       content="Explore the latest insights in healthcare, wellness, and medical advancements."
     />
     <title>WEALTHY LIVING | BOOKING</title>
-    <link rel="icon" type="image/png" href="/assets/images/new-logo.png">
+    <link rel="icon" type="image/png" href="/assets/images/new-logo.png" />
     <link
       rel="stylesheet"
       href="/assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -38,80 +38,138 @@
   </head>
   <body>
     <div class="container">
-        <div class="row booking-container">
-            <!-- Left Image Section -->
-            <div class="col-md-6 d-none d-md-block booking-image"></div>
-    
-            <!-- Right Form Section -->
-            <div class="col-md-6 d-flex align-items-center">
-                <div class="booking-form w-100 p-4">
-                     <!-- Mobile Logo -->
-        <div class="text-center mb-3 d-block d-md-none">
-            <img src="/assets/images/new-logo.png" alt="Company Logo" class="mobile-logo img-fluid"> 
-        </div>
-                    <p class="">Welcome to Our Booking Page</p>
-                    <h2 class="welcome-text">Book Your Appointment</h2>
-                    <p>Please fill out the form below to schedule your appointment.</p>
-    
-                    <form>
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="First Name" required>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Last Name" required>
-                            </div>
-                        </div>
-    
-                        <div class="mb-3">
-                            <input type="email" class="form-control" placeholder="Email" required>
-                        </div>
-    
-                        <div class="mb-3">
-                            <input type="tel" class="form-control" placeholder="Phone Number" required>
-                        </div>
-    
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <input type="date" class="form-control" placeholder="Date" required>
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <input type="time" class="form-control" placeholder="Time" required>
-                            </div>
-                        </div>
-    
-                        <p>Who are you booking for?</p>
-                        <div class="mb-3">
-                            <input type="radio" id="self" name="booking-for" required>
-                            <label for="self">Myself</label>
-    
-                            <input type="radio" id="someone-else" name="booking-for" class="ms-3">
-                            <label for="someone-else">Someone Else</label>
-                        </div>
-    
-                        <!-- Book Now Button (Triggers Modal) -->
-                        <button type="button" class="btn btn-submit w-100" data-bs-toggle="modal" data-bs-target="#bookingModal">
-                            Book Now
-                        </button>
-                    </form>
-                </div>
+      <div class="row booking-container">
+        <!-- Left Image Section -->
+        <div class="col-md-6 d-none d-md-block booking-image"></div>
+
+        <!-- Right Form Section -->
+        <div class="col-md-6 d-flex align-items-center">
+          <div class="booking-form w-100 p-4">
+            <!-- Mobile Logo -->
+            <div class="text-center mb-3 d-block d-md-none">
+              <a href="/index.html">
+                <img
+                  src="/assets/images/new-logo.png"
+                  alt="Company Logo"
+                  class="mobile-logo img-fluid"
+              /></a>
             </div>
+            <p class="">Welcome to Our Booking Page</p>
+            <h2 class="welcome-text">Book Your Appointment</h2>
+            <p>Please fill out the form below to schedule your appointment.</p>
+
+            <form>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First Name"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last Name"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <input
+                  type="tel"
+                  class="form-control"
+                  placeholder="Phone Number"
+                  required
+                />
+              </div>
+
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="date"
+                    class="form-control"
+                    placeholder="Date"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 mb-3">
+                  <input
+                    type="time"
+                    class="form-control"
+                    placeholder="Time"
+                    required
+                  />
+                </div>
+              </div>
+
+              <p>Who are you booking for?</p>
+              <div class="mb-3">
+                <input type="radio" id="self" name="booking-for" required />
+                <label for="self">Myself</label>
+
+                <input
+                  type="radio"
+                  id="someone-else"
+                  name="booking-for"
+                  class="ms-3"
+                />
+                <label for="someone-else">Someone Else</label>
+              </div>
+
+              <!-- Book Now Button (Triggers Modal) -->
+              <button
+                type="button"
+                class="btn btn-submit w-100"
+                data-bs-toggle="modal"
+                data-bs-target="#bookingModal"
+              >
+                Book Now
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </div>
-    
+
     <!-- Booking Confirmation Modal -->
-    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="bookingModalLabel">Booking Successful</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    🎉 Congratulations! Your booking has been confirmed.
-                </div>
-            </div>
+    <div
+      class="modal fade"
+      id="bookingModal"
+      tabindex="-1"
+      aria-labelledby="bookingModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bookingModalLabel">
+              Booking Successful
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            🎉 Congratulations! Your booking has been confirmed.
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
@@ -122,12 +180,16 @@
         once: true,
       });
     </script>
-     <script>
+    <script>
       document.addEventListener("DOMContentLoaded", function () {
-          document.title = "Wealthy Living - Premium Healthcare services with expert care. Book an appointment today!"; // Ensure correct title
-          document.body.setAttribute("title", "Premium Healthcare services with expert care. Book an appointment today!");
+        document.title =
+          "Wealthy Living - Premium Healthcare services with expert care. Book an appointment today!"; // Ensure correct title
+        document.body.setAttribute(
+          "title",
+          "Premium Healthcare services with expert care. Book an appointment today!"
+        );
       });
-  </script>
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
