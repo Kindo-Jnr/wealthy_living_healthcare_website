@@ -820,7 +820,59 @@ h1 {
 .social-icons a:hover {
   color: #ff7f00;
 }
+  /* Floating Buttons Container - Fixed Positioning */
+  .floating-buttons-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column-reverse; /* WhatsApp on bottom, Back-to-top above */
+    gap: 15px;
+    z-index: 9999; /* Ensure it stays above other elements */
+  }
 
+  /* Shared Button Styles */
+  .floating-btn {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    position: relative; /* For absolute positioning of tooltips if needed */
+  }
+
+  /* WhatsApp Button */
+  .whatsapp-btn {
+    background: #25D366;
+    text-decoration: none;
+  }
+  .whatsapp-btn:hover {
+    background: #128C7E;
+    transform: scale(1.1);
+  }
+
+  /* Back to Top Button */
+  .back-to-top {
+    background: #603c00;
+    display: none; 
+  }
+  .back-to-top:hover {
+    background: #ffffff;
+    color: #764a00;
+    transform: scale(1.1);
+  }
+
+  /* Show back-to-top button when scrolling */
+  .back-to-top.visible {
+    display: flex;
+  }
 /* Responsive */
 @media (max-width: 768px) {
   .footer-logo {
@@ -837,6 +889,11 @@ h1 {
   .social-icons {
     text-align: center;
     margin-top: 10px;
+  }
+  .floating-btn{
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
   }
 }
 
@@ -1059,7 +1116,7 @@ h1 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
 }
-.blog-stories h2{
+.blog-stories h2 {
   color: #050505;
 }
 
@@ -1334,7 +1391,7 @@ h1 {
 }
 .verification-input {
   display: flex;
-    gap: 20px;
+  gap: 20px;
 }
 
 .verification-input input {
@@ -1345,22 +1402,20 @@ h1 {
   border-radius: 4px;
   box-shadow: 0px 6px 12px 0px rgba(51, 108, 251, 0.16);
   color: #000;
-font-family: Inter;
-font-size: 16.504px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: Inter;
+  font-size: 16.504px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.verify{
+.verify {
   color: #000;
-font-family: Inter;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-
-
 
 /* Animations--------------------- */
 /* Navbar Animation Effect---- */
